@@ -1,12 +1,19 @@
-# FragDenStaat.de Theming
+# Froide Base Theme
 
-This repository contains templates and static files for theming
-[FragDenStaat.de](https://fragdenstaat.de) - the German instance of [Froide](https://github.com/stefanw/froide).
+This is a basic Django project with a theme app that plugs into [Froide](https://github.com/stefanw/froide).
 
-Install this app in your environment with `pip install -e .` and add it to the top of the `INSTALLED_APPS` setting of Froide.
+## Get started easily
+
+In a Python virtualenv run:
+
+    pip install -r requirements.txt -e .
+    python manage.py syncdb --migrate
+    python manage.py runserver
+
+
+A more complete guide can be found here:
+
 
 ## License
 
-Froide is licensed under the MIT License.
-
-Some folders contain an attributions.txt with more information about the copyright holders for files in this specific folder.
+Froide Theme is licensed under the MIT License.
