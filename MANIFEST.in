@@ -1,0 +1,5 @@
+include README.md LICENSE.txt
+recursive-include froide_theme/theme/templates *
+recursive-include froide_theme/theme/static *
+recursive-exclude froide_theme/theme/static/img/jurisdictions */*
+recursive-include froide_theme/theme/locale *.po

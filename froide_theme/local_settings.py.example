@@ -1,0 +1,4 @@
+from .settings import ThemeBase
+
+class Dev(ThemeBase):
+    pass
