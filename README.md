@@ -11,7 +11,7 @@ In a Python virtualenv run:
     python manage.py runserver
 
 
-A more complete guide can be found here:
+[Here is a complete guide of how to set this up on Heroku.](http://froide.readthedocs.org/en/latest/herokudeployment/)
 
 
 ## License
