@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import os
+
 from froide.settings import Base, ThemeBase, HerokuPostmark, HerokuPostmarkS3  # noqa
 
 
@@ -12,6 +14,14 @@ class CustomThemeBase(ThemeBase):
     SECRET_URLS = {
         "admin": "admin",
     }
+
+    @property
+    def LOCALE_PATHS(self):
+        return list(super(CustomThemeBase, self).LOCALE_PATHS.default) + [
+            os.path.abspath(
+                os.path.join(os.path.dirname(__file__), '..', "locale")
+            )
+        ]
 
 
 class Dev(CustomThemeBase, Base):
