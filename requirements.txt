@@ -1,15 +1,14 @@
 Django==1.6.1
 Markdown==2.3.1
 South==0.8.4
-celery==3.0.22
-django-celery==3.0.21
+celery==3.1.8
+django-celery==3.1.1
 -e git://github.com/stefanw/django-haystack.git@update-index-language#egg=django_haystack
 django-taggit==0.10
 lxml==3.2.4
 psycopg2==2.5.1
 pytz==2013.8
 requests==2.0.1
-django-gravatar2==1.1.3
 django-floppyforms==1.1
 django_overextends==0.3.0
 python-magic==0.4.6
@@ -17,11 +16,13 @@ django-tastypie==0.10.0
 python-mimeparse>=0.1.4
 django-tastypie-swagger==0.1.1
 unicodecsv==0.9.4
+django-configurations==0.7
+django-storages==1.1.8
 dj-database-url==0.2.2
 django-cache-url==0.6.0
-django-configurations==0.7
 gunicorn==18.0
 dj-static==0.0.5
-django-storages==1.1.8
 boto==2.20.0
+honcho==0.5.0
+https://github.com/django-compressor/django-compressor/archive/develop.zip#egg=django_compressor
 -e git://github.com/stefanw/froide.git@master#egg=froide
