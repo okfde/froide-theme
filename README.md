@@ -7,7 +7,7 @@ This is a basic Django project with a theme app that plugs into [Froide](https:/
 In a Python virtualenv run:
 
     pip install -r requirements.txt -e .
-    python manage.py syncdb --migrate
+    python manage.py migrate
     python manage.py runserver
 
 
